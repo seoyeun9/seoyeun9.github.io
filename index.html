@@ -27,30 +27,24 @@
             /* 피그마의 X, Y 좌표를 그대로 입력 */
             left: 122px;  /* 피그마 X 값 */
             top: 2px;   /* 피그마 Y 값 */
-    
             /* 이 그룹 전체의 너비 (보통 CV 종이 너비) */
-            width: 650px; /* 피그마 W 값 */
+            width: 751px; /* 피그마 W 값 */
             z-index: 5;
             display: block;
-            box-shadow: 15px 15px 30px rgba(0,0,0,0.1);
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
         }
         .id_card-img {
             position: absolute;
             /* CV 종이(0,0)를 기준으로 얼마나 떨어져 있는지 입력 */
             /* 왼쪽/위로 삐져나온다면 마이너스(-) 값을 쓰세요 */
-            left: -40px;  /* 피그마상 CV와 ID카드 간의 거리 */
-            top: -60px;   /* 피그마상 CV와 ID카드 간의 거리 */
-    
-    /* ID 카드의 실제 가로 크기 */
-    width: 280px; /* 피그마 W 값 */
-    z-index: 10;  /* CV보다 무조건 위로 */
-    
-    /* 피그마 회전값 그대로 입력 (예: -5deg) */
-    transform: rotate(-5deg);
-    
-    /* ID 카드가 떠 있는 듯한 입체감 (코딩 그림자) */
-    filter: drop-shadow(10px 10px 20px rgba(0,0,0,0.3));
-}
+            left: -197px;  /* 피그마상 CV와 ID카드 간의 거리 */
+            bottom: 487px;   /* 피그마상 CV와 ID카드 간의 거리 */
+            /* ID 카드의 실제 가로 크기 */
+            width: 923px; /* 피그마 W 값 */
+            z-index: 10;  /* CV보다 무조건 위로 */
+            /* ID 카드가 떠 있는 듯한 입체감 (코딩 그림자) */
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+        }
         
         .modal { display: none; }
     </style>
