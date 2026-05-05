@@ -40,7 +40,7 @@
         .CV-img {
             position: absolute;
             left: calc(112 / 1728 * 100vw);
-            top: calc(21 / 1728 * 100vw);
+            top: calc(-21 / 1728 * 100vw);
             width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 5;
             display: block;
