@@ -13,12 +13,13 @@
         }
         
         .portfolio-container {
-            width: 1728px;
-            height: 1080px;
+            width: 100vw;
+            height: calc(1080 / 1728 * 100vw);
             margin: 0 auto;
+            
             background-image: url('Image/background.png'); 
-            background-size: 1457px 929px;
-            background-position: 46px 11px;
+            background-size: calc(1457 / 1728 * 100vw) calc(929 / 1728 * 100vw);
+            background-position: calc(46 / 1728 * 100vw) calc(11 / 1728 * 100vw);
             background-repeat: no-repeat;
             position: relative;
             background-color: #f0f0f0;
@@ -26,18 +27,18 @@
 
         .CV-img {
             position: absolute;
-            left: 112px;
-            top: -1px;
-            width: 670px; /* 피그마 W 값 */
+            left: calc(112 / 1728 * 100vw);
+            top: calc(-1 / 1728 * 100vw);
+            width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 5;
             display: block;
             filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
         }
         .id_card-img {
             position: absolute;
-            left: -223px;
-            top: -970px;
-            width: 848px; /* 피그마 W 값 */
+            left: calc(-223 / 1728 * 100vw);
+            top: calc(-970 / 1728 * 100vw);
+            width: calc(848 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 10;  /* CV보다 위로 */
             /* ID 카드가 떠 있는 듯한 입체감 (코딩 그림자) */
             filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
