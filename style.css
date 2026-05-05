@@ -29,7 +29,7 @@
         .CV-img {
             position: absolute;
             left: calc(100 / 1728 * 100vw);
-            top: calc(-1 / 1728 * 100vw);
+            top: calc(-2 / 1728 * 100vw);
             width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 5;
             display: block;
@@ -37,7 +37,7 @@
 
             transition: transform 0.5s ease-in-out;
             cursor: pointer;
-            transform-origin: 392px 11px;
+            transform-origin: 395px 11px;
         }
         .CV-img:hover {
             transform: rotate(-3deg) translateY(-8px);
