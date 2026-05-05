@@ -27,6 +27,7 @@
         }
         #cv-trigger {
         position: relative;
+        }
 
         .cv-clip {
             position: absolute;
@@ -35,7 +36,7 @@
             width: calc(64 / 1728 * 100vw);
             z-index: 10;
             pointer-events: none;
-}
+        }
         .CV-img {
             position: absolute;
             left: calc(100 / 1728 * 100vw);
