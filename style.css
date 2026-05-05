@@ -35,7 +35,8 @@
             display: block;
             filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3)); /* 그림자 */
 
-            transition: transform 0.5s ease-in-out; 
+            transition: transform 0.5s ease-in-out;
+            cursor: pointer;
             transform-origin: center top;
         }
         .CV-img:hover {
@@ -54,7 +55,7 @@
             transform-origin: center top;
         }
         .id_card-img:hover {
-        /* 오른쪽으로 2도 정도 살짝 기울어지면서 아래로 5px 정도 밀리는 느낌 */
+        /* 오른쪽으로 2도 정도 살짝 기울어지면서 아래로 10px 정도 밀리는 느낌 */
             transform: rotate(2deg) translateY(10px);
         }
 
