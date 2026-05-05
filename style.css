@@ -37,7 +37,7 @@
 
             transition: transform 0.5s ease-in-out;
             cursor: pointer;
-            transform-origin: 504px 10px;
+            transform-origin: 392px 11px;
         }
         .CV-img:hover {
             transform: rotate(-3deg) translateY(-8px);
