@@ -51,7 +51,7 @@
             transform-origin: center top;
         }
         .CV-img:hover {
-            transform: rotate(-3deg) translateY(8px);
+            transform: rotate(-3deg) translateY(3px);
         }
 
         .id_card-img {
@@ -67,7 +67,7 @@
         }
         .id_card-img:hover {
         /* 오른쪽으로 2도 정도 살짝 기울어지면서 아래로 10px 정도 밀리는 느낌 */
-            transform: rotate(0.5deg) translateY(10px);
+            transform: rotate(0.5deg) translateY(8px);
         }
 
         .project-item {
