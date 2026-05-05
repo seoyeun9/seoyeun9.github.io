@@ -32,7 +32,7 @@
             width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 5;
             display: block;
-            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3)); /* 그림자 */
         }
         .id_card-img {
             position: absolute;
@@ -40,10 +40,34 @@
             top: calc(-970 / 1728 * 100vw);
             width: calc(848 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 10;  /* CV보다 위로 */
-            /* ID 카드가 떠 있는 듯한 입체감 (코딩 그림자) */
             filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
         }
-        
+
+        .project-item {
+            position: absolute;
+        }
+
+        .project-item img {
+            position: absolute;
+            display: block;
+        }
+
+        /* --- Brand 영역 --- */
+        .brand {
+            left: calc(753 / 1728 * 100vw);
+            top: calc(26 / 1728 * 100vw);
+        }
+            .brand .image {
+                width: calc(615 / 1728 * 100vw);
+                z-index: 2;
+            }
+            .brand .postit {
+                width: calc(219 / 1728 * 100vw);
+                left: calc(-52 / 1728 * 100vw);
+                top: calc(-3 / 1728 * 100vw);
+                z-index: 3;
+            }
+
         .modal { display: none; }
     </style>
 </head>
