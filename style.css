@@ -51,7 +51,7 @@
             transform-origin: center top;
         }
         .CV-img:hover {
-            transform: rotate(-3deg) translateY(-8px);
+            transform: rotate(-3deg) translateY(8px);
         }
 
         .id_card-img {
