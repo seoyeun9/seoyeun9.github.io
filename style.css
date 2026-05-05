@@ -39,8 +39,8 @@
         }
         .CV-img {
             position: absolute;
-            left: calc(-391 / 1728 * 100vw);
-            top: calc(-22 / 1728 * 100vw);
+            left: calc(112 / 1728 * 100vw);
+            top: calc(-21 / 1728 * 100vw);
             width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 5;
             display: block;
@@ -48,7 +48,7 @@
 
             transition: transform 0.5s ease-in-out;
             cursor: pointer;
-            transform-origin: 103.1% 0.5%;
+            transform-origin: center top;
         }
         .CV-img:hover {
             transform: rotate(-3deg) translateY(-8px);
