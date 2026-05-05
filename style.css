@@ -25,7 +25,17 @@
             position: relative;
             background-color: #f0f0f0;
         }
+        #cv-trigger {
+        position: relative;
 
+        .cv-clip {
+            position: absolute;
+            left: calc(530 / 1728 * 100vw);
+            top: calc(-1 / 1728 * 100vw);
+            width: calc(64 / 1728 * 100vw);
+            z-index: 10;
+            pointer-events: none;
+}
         .CV-img {
             position: absolute;
             left: calc(100 / 1728 * 100vw);
