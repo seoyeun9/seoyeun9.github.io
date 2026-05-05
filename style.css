@@ -1,0 +1,102 @@
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .portfolio-container {
+            width: 100vw;
+            height: 62.5vw;
+            margin: 0 auto;
+            
+            background-image: url('Image/background.png'); 
+            background-size: calc(1457 / 1728 * 100vw) calc(929 / 1728 * 100vw);
+            background-position: calc(46 / 1728 * 100vw) calc(11 / 1728 * 100vw);
+            background-repeat: no-repeat;
+            position: relative;
+            background-color: #f0f0f0;
+        }
+
+        .CV-img {
+            position: absolute;
+            left: calc(100 / 1728 * 100vw);
+            top: calc(-1 / 1728 * 100vw);
+            width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 5;
+            display: block;
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3)); /* 그림자 */
+        }
+        .id_card-img {
+            position: absolute;
+            left: calc(-223 / 1728 * 100vw);
+            top: calc(-970 / 1728 * 100vw);
+            width: calc(848 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 10;  /* CV보다 위로 */
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+        }
+
+        .project-item {
+            position: absolute;
+        }
+
+        .project-item img {
+            position: absolute;
+            display: block;
+        }
+
+        /* --- Brand 영역 --- */
+        .brand {
+            left: calc(805 / 1728 * 100vw);
+            top: calc(26 / 1728 * 100vw);
+        }
+            .brand .brand_main {
+                width: calc(615 / 1728 * 100vw);
+                z-index: 2;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+            .brand .brand_postit {
+                width: calc(219 / 1728 * 100vw);
+                left: calc(-52 / 1728 * 100vw);
+                top: calc(3 / 1728 * 100vw);
+                z-index: 3;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+         /* --- Visual 영역 --- */
+        .visual {
+            left: calc(781 / 1728 * 100vw);
+            top: calc(386 / 1728 * 100vw);
+        }
+            .visual .visual_main {
+                width: calc(315 / 1728 * 100vw);
+                z-index: 2;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+            .visual .visual_postit {
+                width: calc(219 / 1728 * 100vw);
+                left: calc(250 / 1728 * 100vw);
+                top: calc(-5 / 1728 * 100vw);
+                z-index: 3;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+        /* --- Interact 영역 --- */
+        .interact {
+            left: calc(1114 / 1728 * 100vw);
+            top: calc(546 / 1728 * 100vw);
+        }
+            .interact .interact_main {
+                width: calc(329 / 1728 * 100vw);
+                z-index: 2;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+            .interact .interact_postit {
+                width: calc(219 / 1728 * 100vw);
+                left: calc(-191 / 1728 * 100vw);
+                top: calc(175 / 1728 * 100vw);
+                z-index: 3;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+        .modal { display: none; }
+    </style>
