@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -58,16 +58,51 @@
             top: calc(26 / 1728 * 100vw);
         }
             .brand .image {
-                width: calc(615 / 1728 * 100vw);
+                width: calc(605 / 1728 * 100vw);
                 z-index: 2;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
             }
             .brand .postit {
-                width: calc(219 / 1728 * 100vw);
+                width: calc(200 / 1728 * 100vw);
                 left: calc(-52 / 1728 * 100vw);
                 top: calc(-3 / 1728 * 100vw);
                 z-index: 3;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
             }
-
+         /* --- Visual 영역 --- */
+        .visual {
+            left: calc(781 / 1728 * 100vw);
+            top: calc(386 / 1728 * 100vw);
+        }
+            .visual .image {
+                width: calc(305 / 1728 * 100vw);
+                z-index: 2;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+            .visual .postit {
+                width: calc(200 / 1728 * 100vw);
+                left: calc(153 / 1728 * 100vw);
+                top: calc(5 / 1728 * 100vw);
+                z-index: 3;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+        /* --- Interact 영역 --- */
+        .interact {
+            left: calc(923 / 1728 * 100vw);
+            top: calc(546 / 1728 * 100vw);
+        }
+            .interact .photo {
+                width: calc(319 / 1728 * 100vw);
+                z-index: 2;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
+            .interact .postit {
+                width: calc(200 / 1728 * 100vw);
+                left: calc(-191 / 1728 * 100vw);
+                top: calc(-175 / 1728 * 100vw);
+                z-index: 3;
+                filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+            }
         .modal { display: none; }
     </style>
 </head>
