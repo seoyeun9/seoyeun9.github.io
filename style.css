@@ -91,21 +91,30 @@
                 width: calc(615 / 1728 * 100vw);
                 z-index: 2;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+
+                transition: transform 0.6s ease-in-out, filter 0.6s; 
+                cursor: pointer;
+                transform-origin: center top;
             }
+
+            .brand:hover .brand_postit {
+                transform: rotateX(10deg);
+                filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+            }
+
             .brand .brand_postit {
                 width: calc(219 / 1728 * 100vw);
                 left: calc(-52 / 1728 * 100vw);
                 top: calc(3 / 1728 * 100vw);
                 z-index: 3;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
-                
+
                 transition: transform 0.6s ease-in-out, filter 0.6s; 
                 cursor: pointer;
                 transform-origin: center top; 
             }
             
             .brand:hover .brand_postit {
-
                 transform: rotateX(12deg) rotateZ(-2deg);
                 filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
             }
