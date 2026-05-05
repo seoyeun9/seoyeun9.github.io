@@ -97,7 +97,7 @@
                 transform-origin: center top;
             }
 
-            .brand:hover .brand_postit {
+            .brand:hover .brand_main {
                 transform: rotateX(10deg);
                 filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
             }
