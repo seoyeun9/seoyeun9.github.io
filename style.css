@@ -87,6 +87,7 @@
 
             perspective: 1000px;
         }
+
             .brand .brand_main {
                 width: calc(615 / 1728 * 100vw);
                 z-index: 2;
@@ -122,35 +123,82 @@
         .visual {
             left: calc(781 / 1728 * 100vw);
             top: calc(386 / 1728 * 100vw);
+
+            perspective: 1000px;
         }
+
             .visual .visual_main {
                 width: calc(315 / 1728 * 100vw);
                 z-index: 2;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+
+                transition: transform 0.6s ease-in-out, filter 0.6s; 
+                cursor: pointer;
+                transform-origin: center top;
             }
+
+            .visual:hover .visual_main {
+                transform: rotateX(7deg);
+                filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+            }
+
             .visual .visual_postit {
                 width: calc(219 / 1728 * 100vw);
                 left: calc(250 / 1728 * 100vw);
                 top: calc(-5 / 1728 * 100vw);
                 z-index: 3;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+
+                transition: transform 0.6s ease-in-out, filter 0.6s; 
+                cursor: pointer;
+                transform-origin: center top;
             }
+
+            .visual:hover .visual_postit {
+                transform: rotateX(8deg) rotateZ(1deg);
+                filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+            }
+
+
         /* --- Interact 영역 --- */
         .interact {
             left: calc(1114 / 1728 * 100vw);
             top: calc(546 / 1728 * 100vw);
+
+            perspective: 1000px;
         }
+
             .interact .interact_main {
                 width: calc(329 / 1728 * 100vw);
                 z-index: 2;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+
+                transition: transform 0.6s ease-in-out, filter 0.6s; 
+                cursor: pointer;
+                transform-origin: center top;
             }
+
+            .interact:hover .interact_main {
+                transform: rotateX(7deg);
+                filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+            }
+
             .interact .interact_postit {
                 width: calc(219 / 1728 * 100vw);
                 left: calc(-191 / 1728 * 100vw);
                 top: calc(175 / 1728 * 100vw);
                 z-index: 3;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+
+                transition: transform 0.6s ease-in-out, filter 0.6s; 
+                cursor: pointer;
+                transform-origin: center top;
             }
+
+            .interact:hover .interact_postit {
+                transform: rotateX(10deg) rotateZ(2deg);
+                filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+            }
+
         .modal { display: none; }
     </style>
