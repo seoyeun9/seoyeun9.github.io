@@ -84,7 +84,20 @@
                 top: calc(3 / 1728 * 100vw);
                 z-index: 3;
                 filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+                
+                transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+                cursor: pointer;
+                transform-origin: center top; 
             }
+            
+            .brand .brand_postit:hover {
+                /* 1. 살짝 위로 들리면서(-5도) 앞으로 튀어나오는 느낌(scale) */
+                transform: rotateX(15deg) rotate(-2deg) scale(1.05);
+    
+                /* 2. 종이가 들리니까 그림자는 더 크고 흐릿해져야 리얼합니다 */
+                filter: drop-shadow(15px 20px 20px rgba(0,0,0,0.4));
+            }
+
          /* --- Visual 영역 --- */
         .visual {
             left: calc(781 / 1728 * 100vw);
