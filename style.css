@@ -34,7 +34,14 @@
             z-index: 5;
             display: block;
             filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3)); /* 그림자 */
+
+            transition: transform 0.5s ease-in-out; 
+            transform-origin: center top;
         }
+        .CV-img:hover {
+            transform: rotate(-3deg) translateY(-8px);
+        }
+
         .id_card-img {
             position: absolute;
             left: calc(-223 / 1728 * 100vw);
@@ -46,7 +53,6 @@
             transition: transform 0.5s ease-in-out; 
             transform-origin: center top;
         }
-
         .id_card-img:hover {
         /* 오른쪽으로 2도 정도 살짝 기울어지면서 아래로 5px 정도 밀리는 느낌 */
             transform: rotate(2deg) translateY(10px);
