@@ -216,13 +216,13 @@
         }
 
         .contact-trigger img {
-            width: 100%;
+            width: 100% !important;
             height: auto;
             display: block;
         }
 
         .contact-trigger:hover {
-            transform: translateY(-10px);
+            transform: rotate(-16deg) translateY(-10px);
             filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.2));
         }
 
