@@ -204,9 +204,9 @@
 
         /* --- 우측 하단 고정 Contact 버튼 --- */
         .contact-trigger {
-            position: absolute;
-            transform: rotate(16deg);
-            left: calc(1321 / 1728 * 100vw);
+            position: fixed;
+            transform: rotate(-16deg);
+            right: calc(30 / 1728 * 100vw);
             top: calc(96 / 1728 * 100vw);
             width: calc(302 / 1728 * 100vw);
             z-index: 100;
