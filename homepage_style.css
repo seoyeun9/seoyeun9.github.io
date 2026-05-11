@@ -23,7 +23,7 @@
             background-position: calc(46 / 1728 * 100vw) calc(11 / 1728 * 100vw);
             background-repeat: no-repeat;
             position: relative;
-            background-color: #f0f0f0;
+            background-color: url('Image/back.png'); 
         }
         #cv-trigger {
         position: relative;
