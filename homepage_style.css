@@ -204,11 +204,12 @@
 
         /* --- 우측 하단 고정 Contact 버튼 --- */
         .contact-fixed-trigger {
-            position: fixed; /* 화면에 고정 */
-            right: calc(10 / 1728 * 100vw); /* 우측 여백 */
-            bottom: calc(10 / 1728 * 100vw); /* 하단 여백 */
-            width: calc(250 / 1728 * 100vw); /* 이미지 크기 (피그마 값 참고) */
-            z-index: 100; /* 다른 요소보다 위에 오도록 */
+            position: fixed;
+            rotate: 16deg;
+            left: calc(1321 / 1728 * 100vw);
+            top: calc(96 / 1728 * 100vw);
+            width: calc(302 / 1728 * 100vw);
+            z-index: 100;
             cursor: pointer;
             transition: transform 0.3s ease;
             filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
