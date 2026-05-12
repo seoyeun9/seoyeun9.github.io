@@ -18,7 +18,7 @@
             height: 62.5vw;
             margin: 0 auto;
             
-            background-image: url('Image/background.png'); 
+            background-image: url('Image/background_1.png'); 
             background-size: calc(1457 / 1728 * 100vw) calc(929 / 1728 * 100vw);
             background-position: calc(46 / 1728 * 100vw) calc(11 / 1728 * 100vw);
             background-repeat: no-repeat;
