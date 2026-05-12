@@ -21,21 +21,21 @@
           margin: 0 auto;
           background-image: url('brand_detail/pin_board.png'); 
           background-size: calc(1526 / 1728 * 100vw) calc(1824 / 1983 * 100vw);
+          background-position: calc(101 / 1728 * 100vw) calc(-65 / 1983 * 100vw);
           background-repeat: no-repeat;
       }
 
-/* 3. 좌측 상단 Brand 포스트잇 */
-.postit-label {
-    position: absolute;
-    left: calc(96 / 1728 * 100vw);
-    top: calc(85 / 1728 * 100vw);
-    width: calc(219 / 1728 * 100vw);
-    z-index: 10;
-}
+      .postit-label {
+          position: absolute;
+          left: calc(96 / 1728 * 100vw);
+          top: calc(85 / 1728 * 100vw);
+          width: calc(219 / 1728 * 100vw);
+          z-index: 10;
+      }
 
-.postit-label img {
-    width: 100%;
-    height: auto;
+      .postit-label img {
+          width: 100%;
+          height: auto;
 }
 
 /* 4. 사진 그리드 레이아웃 (정렬) */
