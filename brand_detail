@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Projects - Cork Board</title>
+    <link rel="stylesheet" href="brand_style.css">
+</head>
+<body>
+    <div class="board-container">
+        
+        <div class="postit-label">
+            <img src="Image/brand_postit_detail.png" alt="Brand Label">
+        </div>
+
+        <div class="photo-grid">
+            
+            <a href="brand_01_detail.html" class="polaroid-item">
+                <img src="Image/brand_01.png" alt="Project 01">
+            </a>
+            <a href="brand_02_detail.html" class="polaroid-item">
+                <img src="Image/brand_02.png" alt="Project 02">
+            </a>
+            <a href="brand_03_detail.html" class="polaroid-item">
+                <img src="Image/brand_03.png" alt="Project 03">
+            </a>
+
+            <a href="brand_04_detail.html" class="polaroid-item">
+                <img src="Image/brand_04.png" alt="Project 04">
+            </a>
+            <a href="brand_05_detail.html" class="polaroid-item">
+                <img src="Image/brand_05.png" alt="Project 05">
+            </a>
+            <a href="brand_06_detail.html" class="polaroid-item">
+                <img src="Image/brand_06.png" alt="Project 06">
+            </a>
+
+            <a href="brand_07_detail.html" class="polaroid-item">
+                <img src="Image/brand_07.png" alt="Project 07">
+            </a>
+            <a href="brand_08_detail.html" class="polaroid-item">
+                <img src="Image/brand_08.png" alt="Project 08">
+            </a>
+            <a href="brand_09_detail.html" class="polaroid-item">
+                <img src="Image/brand_09.png" alt="Project 09">
+            </a>
+
+        </div>
+
+        <a href="home.html" class="back-btn">← Back to Home</a>
+    </div>
+</body>
+</html>
