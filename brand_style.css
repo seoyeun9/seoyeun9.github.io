@@ -21,7 +21,7 @@
           margin: 0 auto;
           background-image: url('brand_detail/pin_board.png'); 
           background-size: calc(1526 / 1728 * 100vw) calc(1824 / 1983 * 100vw);
-          background-position: calc(101 / 1728 * 100vw) calc(-65 / 1983 * 100vw);
+          background-position: calc(101 / 1728 * 100vw) calc(65 / 1983 * 100vw);
           background-repeat: no-repeat;
       }
 
