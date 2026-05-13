@@ -13,7 +13,7 @@
           background-size: calc(1728 / 1728 * 100vw) calc(1983 / 1983 * 100vw);
 
           overflow-x: hidden;
-          overscroll-behavior-y: none;
+          overflow-y: visible;
       }
 
       .board-container {
