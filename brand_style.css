@@ -11,6 +11,7 @@
           background-image: url('brand_detail/back.png'); 
           background-repeat: repeat;
           background-size: calc(1728 / 1728 * 100vw) calc(1983 / 1983 * 100vw);
+          overflow: hidden;
       }
 
       .board-container {
@@ -26,89 +27,163 @@
 
       .postit-label {
           position: absolute;
-          left: calc(96 / 1728 * 100vw);
-          top: calc(85 / 1728 * 100vw);
-          width: calc(219 / 1728 * 100vw);
+          left: calc(147 / 1728 * 100vw);
+          top: calc(65 / 1728 * 100vw);
+          width: calc(410 / 1728 * 100vw);
           z-index: 10;
       }
 
       .postit-label img {
           width: 100%;
           height: auto;
-}
+      }
 
-/* 4. 사진 그리드 레이아웃 (정렬) */
-.photo-grid {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
 
-/* 5. 개별 프로젝트 아이템 공통 스타일 */
-.photo-grid > div {
-    position: absolute;
-    display: inline-block;
-}
+    /* 폴라로이드 부분 */
+      .photo-item {
+          position: absolute;
+      }
+      
+      .photo-item a {
+          display: block;
+          position: relative;
+      }
+            
+      .photo-grid img:not(.pin) {
+          width: 100%;
+          height: auto;
+          display: block;
+          filter: drop-shadow(5px 10px 15px rgba(0,0,0,0.3));
+      }
+      
+      .pin {
+          position: absolute;
+          z-index: 10;
+          pointer-events: none;
+      }
 
-.photo-grid a {
-    position: relative;
-    display: block;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-}
+      .HOYA { 
+          left: calc(607 / 1728 * 100vw);
+          top: calc(135 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(-3deg);
+      }
+      .HOYA .pin {
+          left: calc(182 / 1728 * 100vw);
+          top: calc(12 / 1983 * 100vw);
+          width: calc(51 / 1728 * 100vw);
+      }
 
-/* 커버 이미지 스타일 */
-.photo-grid img:not(.pin) {
-    width: 100%;
-    height: auto;
-    display: block;
-    filter: drop-shadow(5px 10px 15px rgba(0,0,0,0.3));
-}
 
-/* 📌 핀(Pin) 공통 스타일: 사진 위 중앙에 박히도록 설정 */
-.pin {
-    position: absolute;
-    width: calc(40 / 1728 * 100vw); /* 핀 크기 조절 */
-    top: calc(-15 / 1728 * 100vw);  /* 사진 위로 살짝 걸치게 */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 20;
-    pointer-events: none; /* 핀은 클릭 안 되게 */
-}
+      .sehwa { 
+          left: calc(1114 / 1728 * 100vw);
+          top: calc(118 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(1deg);
+      }
+      .sehwa .pin {
+          left: calc(226 / 1728 * 100vw);
+          top: calc(6 / 1983 * 100vw);
+          width: calc(46 / 1728 * 100vw);
+      }
 
-/* 6. [중요] 각 프로젝트별 개별 위치 설정 (예시 이미지 기준 배치) */
-.HOYA { left: calc(362 / 1728 * 100vw); top: calc(65 / 1728 * 100vw); width: calc(248 / 1728 * 100vw); }
-.sehwa { left: calc(658 / 1728 * 100vw); top: calc(52 / 1728 * 100vw); width: calc(203 / 1728 * 100vw); }
-.GALA { left: calc(80 / 1728 * 100vw); top: calc(342 / 1728 * 100vw); width: calc(258 / 1728 * 100vw); }
-.input_output { left: calc(376 / 1728 * 100vw); top: calc(364 / 1728 * 100vw); width: calc(255 / 1728 * 100vw); }
-.TOMO { left: calc(658 / 1728 * 100vw); top: calc(342 / 1728 * 100vw); width: calc(236 / 1728 * 100vw); }
-.WISE { left: calc(55 / 1728 * 100vw); top: calc(640 / 1728 * 100vw); width: calc(268 / 1728 * 100vw); }
-.huddle { left: calc(362 / 1728 * 100vw); top: calc(654 / 1728 * 100vw); width: calc(263 / 1728 * 100vw); }
-.WOVYN { left: calc(651 / 1728 * 100vw); top: calc(630 / 1728 * 100vw); width: calc(274 / 1728 * 100vw); }
 
-/* 7. 인터랙션: 마우스 올리면 살짝 붕 뜨는 느낌 */
-.photo-grid a:hover {
-    transform: translateY(-10px) scale(1.02);
-    z-index: 50;
-}
+      .GALA { 
+          left: calc(106 / 1728 * 100vw);
+          top: calc(677 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(3deg);
+      }
+      .GALA .pin {
+          left: calc(212 / 1728 * 100vw);
+          top: calc(-40 / 1983 * 100vw);
+          width: calc(50 / 1728 * 100vw);
+      }
 
-/* 8. 뒤로가기 버튼 (Home 아이콘 역할) */
-.back-btn {
-    position: fixed;
-    bottom: 3vw;
-    left: 3vw;
-    padding: 1vw 2vw;
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #333;
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 50px;
-    z-index: 1000;
-    transition: all 0.3s;
-}
 
-.back-btn:hover {
-    background: #333;
-    color: #fff;
-}
+      .input_output { 
+          left: calc(514 / 1728 * 100vw);
+          top: calc(737 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(-2deg);
+      }
+      .input_output .pin {
+          left: calc(217 / 1728 * 100vw);
+          top: calc(-26 / 1983 * 100vw);
+          width: calc(40 / 1728 * 100vw);
+      }
+
+
+      .TOMO { 
+          left: calc(1155 / 1728 * 100vw);
+          top: calc(689 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(-4deg);
+      }
+      .TOMO .pin {
+          left: calc(258 / 1728 * 100vw);
+          top: calc(-43 / 1983 * 100vw);
+          width: calc(50 / 1728 * 100vw);
+      }
+
+
+      .WOVYN { 
+          left: calc(110 / 1728 * 100vw);
+          bottom: calc(176 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(-4deg);
+      }
+      .WOVYN .pin {
+          left: calc(203 / 1728 * 100vw);
+          top: calc(-5 / 1983 * 100vw);
+          width: calc(46 / 1728 * 100vw);
+      }
+
+
+      .WISE { 
+          left: calc(633 / 1728 * 100vw);
+          bottom: calc(125 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(2deg);
+      }
+      .WISE .pin {
+          left: calc(202 / 1728 * 100vw);
+          top: calc(15 / 1983 * 100vw);
+          width: calc(51 / 1728 * 100vw);
+      }
+
+
+      .huddle { 
+          left: calc(1166 / 1728 * 100vw);
+          bottom: calc(189 / 1983 * 100vw);
+          width: calc(455 / 1728 * 100vw);
+          transform: rotate(5deg);
+      }
+      .huddle .pin {
+          left: calc(249 / 1728 * 100vw);
+          top: calc(-10 / 1983 * 100vw);
+          width: calc(75 / 1728 * 100vw);
+      }
+
+
+      /* 8. 뒤로가기 버튼 (Home 아이콘 역할) */
+      .back-btn {
+          position: fixed;
+          bottom: 3vw;
+          left: 3vw;
+          padding: 1vw 2vw;
+          background: rgba(255, 255, 255, 0.9);
+          border: 1px solid #333;
+          color: #333;
+          text-decoration: none;
+          font-weight: bold;
+          border-radius: 50px;
+          z-index: 1000;
+          transition: all 0.3s;
+      }
+      
+      .back-btn:hover {
+          background: #333;
+          color: #fff;
+      }
+</style>
