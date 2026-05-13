@@ -66,7 +66,7 @@
           left: calc(607 / 1728 * 100vw);
           top: calc(135 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(-3deg);
+          transform: rotate(3deg);
       }
       .HOYA .pin {
           left: calc(182 / 1728 * 100vw);
@@ -76,10 +76,10 @@
 
 
       .sehwa { 
-          left: calc(1114 / 1728 * 100vw);
+          right: calc(159 / 1728 * 100vw);
           top: calc(118 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(1deg);
+          transform: rotate(-1deg);
       }
       .sehwa .pin {
           left: calc(226 / 1728 * 100vw);
@@ -92,7 +92,7 @@
           left: calc(106 / 1728 * 100vw);
           top: calc(677 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(3deg);
+          transform: rotate(-3deg);
       }
       .GALA .pin {
           left: calc(212 / 1728 * 100vw);
@@ -102,10 +102,10 @@
 
 
       .input_output { 
-          left: calc(514 / 1728 * 100vw);
+          left: calc(615 / 1728 * 100vw);
           top: calc(737 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(-2deg);
+          transform: rotate(2deg);
       }
       .input_output .pin {
           left: calc(217 / 1728 * 100vw);
@@ -115,10 +115,10 @@
 
 
       .TOMO { 
-          left: calc(1155 / 1728 * 100vw);
+          right: calc(118 / 1728 * 100vw);
           top: calc(689 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(-4deg);
+          transform: rotate(4deg);
       }
       .TOMO .pin {
           left: calc(258 / 1728 * 100vw);
@@ -131,7 +131,7 @@
           left: calc(110 / 1728 * 100vw);
           bottom: calc(176 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(-4deg);
+          transform: rotate(4deg);
       }
       .WOVYN .pin {
           left: calc(203 / 1728 * 100vw);
@@ -144,7 +144,7 @@
           left: calc(633 / 1728 * 100vw);
           bottom: calc(125 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(2deg);
+          transform: rotate(-2deg);
       }
       .WISE .pin {
           left: calc(202 / 1728 * 100vw);
@@ -154,10 +154,10 @@
 
 
       .huddle { 
-          left: calc(1166 / 1728 * 100vw);
+          right: calc(107 / 1728 * 100vw);
           bottom: calc(189 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          transform: rotate(5deg);
+          transform: rotate(-5deg);
       }
       .huddle .pin {
           left: calc(249 / 1728 * 100vw);
