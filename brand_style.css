@@ -83,7 +83,7 @@
           top: calc(118 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(-1deg);
-          filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.2));
       }
       .sehwa .pin {
           left: calc(225 / 1728 * 100vw);
@@ -139,7 +139,7 @@
           bottom: calc(176 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(4deg);
-          filter: drop-shadow(-15px 10px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(-5px 10px 5px rgba(0, 0, 0, 0.2));
       }
       .WOVYN .pin {
           left: calc(185 / 1728 * 100vw);
@@ -167,7 +167,7 @@
           bottom: calc(189 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(-5deg);
-          filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.2));
       }
       .huddle .pin {
           left: calc(270 / 1728 * 100vw);
