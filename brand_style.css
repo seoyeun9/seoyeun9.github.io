@@ -51,10 +51,6 @@
       .photo-item a {
           display: block;
           position: relative;
-
-          transition: transform 0.3s ease-in-out, filter 0.6s; 
-          transform-origin: center top;
-         
       }
             
       .photo-grid img:not(.pin) {
@@ -69,23 +65,14 @@
           pointer-events: none;
       }
 
-      .HOYA_cover { 
+
+      .HOYA { 
           left: calc(607 / 1728 * 100vw);
           top: calc(135 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
-          z-index: 5;
-          display: block;
           transform: rotate(3deg);
           filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.2));
-
-          transition: transform 0.6s ease-in-out;
-          transform-origin: center top;
       }
-
-       .HOYA_cover:hover{
-          transform: rotate(-2deg);
-          filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
-       }
 
       .HOYA .pin {
           left: calc(170 / 1728 * 100vw);
