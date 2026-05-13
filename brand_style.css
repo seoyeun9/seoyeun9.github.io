@@ -47,18 +47,7 @@
       .photo-item {
           position: absolute;
       }
-      
-      .photo-item a {
-          display: block;
-          position: relative;
-      }
-            
-      .photo-grid img:not(.pin) {
-          width: 100%;
-          height: auto;
-          display: block;
-      }
-      
+
       .pin {
           position: absolute;
           z-index: 10;
