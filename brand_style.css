@@ -34,15 +34,15 @@
           top: calc(65 / 1728 * 100vw);
           width: calc(410 / 1728 * 100vw);
           z-index: 10;
-          filter: drop-shadow(-5px 10px 10px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(-5px 10px 10px rgba(0, 0, 0, 0.4));
 
           transition: transform 0.6s ease-in-out, filter 0.6s; 
           transform-origin: center top;
       }
 
       .postit-label:hover {
-           transform: rotateX(15deg) rotateZ(5deg);
-           filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+           transform: rotateX(4deg);
+           filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.1));
         }
 
       .postit-label img {
