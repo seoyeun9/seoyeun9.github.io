@@ -34,6 +34,7 @@
           top: calc(65 / 1728 * 100vw);
           width: calc(410 / 1728 * 100vw);
           z-index: 10;
+          filter: drop-shadow(-5px 10px 10px rgba(0, 0, 0, 0.2));
       }
 
       .postit-label img {
