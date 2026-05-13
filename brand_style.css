@@ -71,7 +71,16 @@
           width: calc(455 / 1728 * 100vw);
           transform: rotate(3deg);
           filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.2));
+
+          transition: transform 0.3s ease-in-out, filter 0.6s; 
+          transform-origin: center top;
       }
+
+       .HOYA:hover .HOYA_cover {
+          transform: rotate(-2deg);
+          filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
+       }
+
       .HOYA .pin {
           left: calc(170 / 1728 * 100vw);
           top: calc(15 / 1983 * 100vw);
