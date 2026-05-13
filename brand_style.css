@@ -69,11 +69,11 @@
           top: calc(135 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(3deg);
-          filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.2));
       }
       .HOYA .pin {
-          left: calc(182 / 1728 * 100vw);
-          top: calc(12 / 1983 * 100vw);
+          left: calc(170 / 1728 * 100vw);
+          top: calc(15 / 1983 * 100vw);
           width: calc(51 / 1728 * 100vw);
       }
 
@@ -83,11 +83,11 @@
           top: calc(118 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(-1deg);
-          filter: drop-shadow(10px 15px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
       }
       .sehwa .pin {
-          left: calc(226 / 1728 * 100vw);
-          top: calc(6 / 1983 * 100vw);
+          left: calc(225 / 1728 * 100vw);
+          top: calc(5 / 1983 * 100vw);
           width: calc(46 / 1728 * 100vw);
       }
 
@@ -97,11 +97,11 @@
           top: calc(795 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(-3deg);
-          filter: drop-shadow(-5px 15px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(-5px 15px 5px rgba(0, 0, 0, 0.2));
       }
       .GALA .pin {
-          left: calc(212 / 1728 * 100vw);
-          top: calc(-40 / 1983 * 100vw);
+          left: calc(225 / 1728 * 100vw);
+          top: calc(-45 / 1983 * 100vw);
           width: calc(50 / 1728 * 100vw);
       }
 
@@ -111,10 +111,11 @@
           top: calc(840 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(2deg);
+          filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.2));
       }
       .input_output .pin {
           left: calc(217 / 1728 * 100vw);
-          top: calc(-26 / 1983 * 100vw);
+          top: calc(-30 / 1983 * 100vw);
           width: calc(40 / 1728 * 100vw);
       }
 
@@ -124,10 +125,11 @@
           top: calc(815 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(4deg);
+          filter: drop-shadow(15px 15px 5px rgba(0, 0, 0, 0.2));
       }
       .TOMO .pin {
-          left: calc(258 / 1728 * 100vw);
-          top: calc(-43 / 1983 * 100vw);
+          left: calc(240 / 1728 * 100vw);
+          top: calc(-50 / 1983 * 100vw);
           width: calc(50 / 1728 * 100vw);
       }
 
@@ -137,6 +139,7 @@
           bottom: calc(176 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(4deg);
+          filter: drop-shadow(-15px 20px 5px rgba(0, 0, 0, 0.2));
       }
       .WOVYN .pin {
           left: calc(203 / 1728 * 100vw);
@@ -150,6 +153,7 @@
           bottom: calc(125 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(-2deg);
+          filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.2));
       }
       .WISE .pin {
           left: calc(202 / 1728 * 100vw);
@@ -163,6 +167,7 @@
           bottom: calc(189 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(-5deg);
+          filter: drop-shadow(15px 20px 5px rgba(0, 0, 0, 0.2));
       }
       .huddle .pin {
           left: calc(249 / 1728 * 100vw);
