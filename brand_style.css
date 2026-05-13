@@ -49,7 +49,7 @@
       }
 
       .photo-item img {
-          position: absolute;
+          position: relative;
           display: block;
       }
 
