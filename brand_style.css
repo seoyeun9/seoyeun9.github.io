@@ -48,6 +48,11 @@
           position: absolute;
       }
 
+      .photo-item img {
+          position: absolute;
+          display: block;
+      }
+
       .pin {
           position: absolute;
           z-index: 10;
