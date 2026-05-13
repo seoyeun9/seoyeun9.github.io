@@ -12,7 +12,7 @@
           background-repeat: repeat;
           background-size: calc(1728 / 1728 * 100vw) calc(1983 / 1983 * 100vw);
 
-          overflow: hidden;
+          overflow-x: hidden;
       }
 
       .board-container {
