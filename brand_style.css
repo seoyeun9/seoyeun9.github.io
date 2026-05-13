@@ -265,11 +265,12 @@
       .huddle-img:hover {
           transform: rotate(0.5deg);
           filter: drop-shadow(5px 20px 10px rgba(0,0,0,0.2));
+          transform-origin: center top;
       }
 
       .huddle .pin {
-          left: calc(270 / 1728 * 100vw);
-          top: calc(-3 / 1983 * 100vw);
+          left: calc(273 / 1728 * 100vw);
+          top: calc(-8 / 1983 * 100vw);
           width: calc(75 / 1728 * 100vw);
       }
 
