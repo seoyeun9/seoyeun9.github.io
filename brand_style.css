@@ -125,7 +125,7 @@
           top: calc(815 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
           transform: rotate(4deg);
-          filter: drop-shadow(15px 15px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(5px 15px 5px rgba(0, 0, 0, 0.2));
       }
       .TOMO .pin {
           left: calc(240 / 1728 * 100vw);
