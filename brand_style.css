@@ -96,8 +96,21 @@
           right: calc(159 / 1728 * 100vw);
           top: calc(118 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .sehwa-img { 
           transform: rotate(-1deg);
           filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.2));
+
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
+      }
+
+      .sehwa-img:hover {
+          transform: rotate(1.5deg);
+          filter: drop-shadow(10px 20px 10px rgba(0,0,0,0.2));
+      }
+        
       }
       .sehwa .pin {
           left: calc(225 / 1728 * 100vw);
@@ -110,9 +123,21 @@
           left: calc(106 / 1728 * 100vw);
           top: calc(795 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .GALA-img { 
           transform: rotate(-3deg);
           filter: drop-shadow(-5px 10px 5px rgba(0, 0, 0, 0.2));
+
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
       }
+
+      .GALA-img:hover {
+          transform: rotate(1deg);
+          filter: drop-shadow(-5px 15px 10px rgba(0,0,0,0.2));
+      }
+
       .GALA .pin {
           left: calc(225 / 1728 * 100vw);
           top: calc(-45 / 1983 * 100vw);
@@ -124,9 +149,21 @@
           left: calc(615 / 1728 * 100vw);
           top: calc(840 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .io-img { 
           transform: rotate(2deg);
           filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.2));
+        
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
       }
+
+      .io-img:hover {
+          transform: rotate(-2.5deg);
+          filter: drop-shadow(-5px 20px 10px rgba(0,0,0,0.2));
+      }
+
       .input_output .pin {
           left: calc(217 / 1728 * 100vw);
           top: calc(-30 / 1983 * 100vw);
@@ -138,9 +175,21 @@
           right: calc(118 / 1728 * 100vw);
           top: calc(815 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .TOMO-img { 
           transform: rotate(4deg);
           filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.2));
+        
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
       }
+
+      .TOMO-img:hover {
+          transform: rotate(8deg);
+          filter: drop-shadow(10px 25px 10px rgba(0,0,0,0.2));
+      }
+
       .TOMO .pin {
           left: calc(240 / 1728 * 100vw);
           top: calc(-50 / 1983 * 100vw);
@@ -152,9 +201,21 @@
           left: calc(110 / 1728 * 100vw);
           bottom: calc(176 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .WOVYN-img { 
           transform: rotate(4deg);
           filter: drop-shadow(-5px 10px 5px rgba(0, 0, 0, 0.2));
+        
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
       }
+
+      .WOVYN-img:hover {
+          transform: rotate(-3deg);
+          filter: drop-shadow(-10px 20px 10px rgba(0,0,0,0.2));
+      }
+
       .WOVYN .pin {
           left: calc(185 / 1728 * 100vw);
           top: calc(-10 / 1983 * 100vw);
@@ -166,9 +227,21 @@
           left: calc(633 / 1728 * 100vw);
           bottom: calc(125 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .WISE-img { 
           transform: rotate(-2deg);
           filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.2));
+        
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
       }
+
+      .WISE-img:hover {
+          transform: rotate(3.5deg);
+          filter: drop-shadow(5px 15px 10px rgba(0,0,0,0.2));
+      }
+
       .WISE .pin {
           left: calc(210 / 1728 * 100vw);
           top: calc(20 / 1983 * 100vw);
@@ -180,14 +253,27 @@
           right: calc(107 / 1728 * 100vw);
           bottom: calc(189 / 1983 * 100vw);
           width: calc(455 / 1728 * 100vw);
+      }
+
+      .huddle-img { 
           transform: rotate(-5deg);
           filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.2));
+        
+          transition: transform 0.6s ease-in-out, filter 0.6s;
+          transform-origin: center top;
       }
+
+      .huddle-img:hover {
+          transform: rotate(0.5deg);
+          filter: drop-shadow(5px 20px 10px rgba(0,0,0,0.2));
+      }
+
       .huddle .pin {
           left: calc(270 / 1728 * 100vw);
           top: calc(-3 / 1983 * 100vw);
           width: calc(75 / 1728 * 100vw);
       }
+
 
 
       /* 8. 뒤로가기 버튼 (Home 아이콘 역할) */
