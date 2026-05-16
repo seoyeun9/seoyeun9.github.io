@@ -59,6 +59,16 @@
             filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
      }
 
+     .tape {
+            position: absolute;
+            right: calc(-166 / 1728 * 100vw);
+            bottom: calc(-161 / 1728 * 100vw);
+            width: calc(624 / 1728 * 100vw);
+            z-index: 6;
+            display: block;
+            transform: rotate(3deg);
+            filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.7));
+     }
 
      .HOYA-img {
             position: absolute;
