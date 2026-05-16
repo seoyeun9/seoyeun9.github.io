@@ -41,20 +41,22 @@
             position: absolute;
             right: calc(345 / 1728 * 100vw);
             top: calc(32 / 1728 * 100vw);
-            width: calc(624 / 1728 * 100vw); /* 피그마 W 값 */
+            width: calc(624 / 1728 * 100vw);
             z-index: 8;
             display: block;
-            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
+            transform: rotate(-1deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
      }
 
      .HOYA2-img {
             position: absolute;
             right: calc(142 / 1728 * 100vw);
             top: calc(43 / 1728 * 100vw);
-            width: calc(624 / 1728 * 100vw); /* 피그마 W 값 */
+            width: calc(624 / 1728 * 100vw);
             z-index: 6;
             display: block;
-            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
+            transform: rotate(3deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
      }
 
 
@@ -65,8 +67,74 @@
             width: calc(326 / 1728 * 100vw); /* 피그마 W 값 */
             z-index: 10;
             display: block;
-            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
+            transform: rotate(4deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
      }
          
+     .label1 {
+            position: absolute;
+            left: calc(472 / 1728 * 100vw);
+            top: calc(-60 / 1728 * 100vw);
+            width: calc(142 / 1728 * 100vw);
+            z-index: 10;
+            display: block;
+            transform: rotate(2.5deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
+     }
+
+     .label2 {
+            position: absolute;
+            left: calc(586 / 1728 * 100vw);
+            top: calc(-32 / 1728 * 100vw);
+            width: calc(142 / 1728 * 100vw);
+            z-index: 8;
+            display: block;
+            transform: rotate(-3.5deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
+     }
+
+     .cloth {
+            position: absolute;
+            left: calc(98 / 1728 * 100vw);
+            top: calc(348 / 1728 * 100vw);
+            width: calc(401 / 1728 * 100vw);
+            z-index: 6;
+            display: block;
+            transform: rotate(4deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
+     }
+
+     .package {
+            position: absolute;
+            left: calc(394 / 1728 * 100vw);
+            bottom: calc(78 / 1728 * 100vw);
+            width: calc(326 / 1728 * 100vw);
+            z-index: 4;
+            display: block;
+            transform: rotate(5deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
+     }
+
+     .bc1 {
+            position: absolute;
+            left: calc(157 / 1728 * 100vw);
+            bottom: calc(34 / 1728 * 100vw);
+            width: calc(180 / 1728 * 100vw);
+            z-index: 10;
+            display: block;
+            transform: rotate(-15deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
+     }
+
+     .bc1 {
+            position: absolute;
+            left: calc(303 / 1728 * 100vw);
+            bottom: calc(34 / 1728 * 100vw);
+            width: calc(180 / 1728 * 100vw);
+            z-index: 8;
+            display: block;
+            transform: rotate(-1.5deg);
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4));
+     }
 
     </style>
