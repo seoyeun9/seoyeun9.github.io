@@ -37,7 +37,7 @@
             pointer-events: none;
      }
 
-     .HOYA 1-img {
+     .HOYA1-img {
             position: absolute;
             right: calc(345 / 1728 * 100vw);
             top: calc(32 / 1728 * 100vw);
@@ -47,7 +47,7 @@
             filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
      }
 
-     .HOYA 2-img {
+     .HOYA2-img {
             position: absolute;
             right: calc(142 / 1728 * 100vw);
             top: calc(43 / 1728 * 100vw);
@@ -60,10 +60,10 @@
 
      .HOYA-img {
             position: absolute;
-            right: calc(142 / 1728 * 100vw);
-            top: calc(43 / 1728 * 100vw);
-            width: calc(624 / 1728 * 100vw); /* 피그마 W 값 */
-            z-index: 6;
+            left: calc(122 / 1728 * 100vw);
+            top: calc(27 / 1728 * 100vw);
+            width: calc(326 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 10;
             display: block;
             filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
      }
