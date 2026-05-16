@@ -17,7 +17,7 @@
         }
 
       .brand-container {
-          position: relative;
+          position: absolute;
           width: 100vw;
           height: 55vw;
           margin: 0 auto;
@@ -30,29 +30,43 @@
 
      .file-clip {
             position: absolute;
-            rigth: calc(-429 / 1728 * 100vw);
+            right: calc(429 / 1728 * 100vw);
             top: calc(2 / 1728 * 100vw);
             width: calc(48 / 1728 * 100vw);
             z-index: 10;
             pointer-events: none;
      }
 
-     .CV-img {
+     .HOYA 1-img {
             position: absolute;
-            left: calc(112 / 1728 * 100vw);
-            top: calc(15 / 1728 * 100vw);
-            width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
-            z-index: 5;
+            right: calc(345 / 1728 * 100vw);
+            top: calc(32 / 1728 * 100vw);
+            width: calc(624 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 8;
             display: block;
-            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3)); /* 그림자 */
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
+     }
 
-            transition: transform 0.5s ease-in-out;
-            cursor: pointer;
-            transform-origin: center top;
+     .HOYA 2-img {
+            position: absolute;
+            right: calc(142 / 1728 * 100vw);
+            top: calc(43 / 1728 * 100vw);
+            width: calc(624 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 6;
+            display: block;
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
      }
-     .CV-img:hover {
-            transform: rotate(-3deg) translateY(3px);
-            filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+
+
+     .HOYA-img {
+            position: absolute;
+            right: calc(142 / 1728 * 100vw);
+            top: calc(43 / 1728 * 100vw);
+            width: calc(624 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 6;
+            display: block;
+            filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.4)); /* 그림자 */
      }
-        
+         
+
     </style>
