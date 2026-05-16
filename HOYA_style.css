@@ -28,5 +28,31 @@
           background-repeat: no-repeat;
       }
 
+     .file-clip {
+            position: absolute;
+            rigth: calc(-429 / 1728 * 100vw);
+            top: calc(2 / 1728 * 100vw);
+            width: calc(48 / 1728 * 100vw);
+            z-index: 10;
+            pointer-events: none;
+     }
+
+     .CV-img {
+            position: absolute;
+            left: calc(112 / 1728 * 100vw);
+            top: calc(15 / 1728 * 100vw);
+            width: calc(670 / 1728 * 100vw); /* 피그마 W 값 */
+            z-index: 5;
+            display: block;
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3)); /* 그림자 */
+
+            transition: transform 0.5s ease-in-out;
+            cursor: pointer;
+            transform-origin: center top;
+     }
+     .CV-img:hover {
+            transform: rotate(-3deg) translateY(3px);
+            filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+     }
         
     </style>
