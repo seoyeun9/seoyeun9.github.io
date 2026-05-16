@@ -61,8 +61,8 @@
 
      .tape {
             position: absolute;
-            right: calc(-166 / 1728 * 100vw);
-            bottom: calc(-161 / 1728 * 100vw);
+            right: calc(-278 / 1728 * 100vw);
+            bottom: calc(-372 / 1728 * 100vw);
             width: calc(1170 / 1728 * 100vw);
             z-index: 4;
             display: block;
