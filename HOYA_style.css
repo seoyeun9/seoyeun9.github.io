@@ -12,7 +12,7 @@
             width: 100%;
             height: 100%;
             background-image: url('Image/back.png');
-            background-size: calc(1728 / 1728 * 100vw) calc(951 / 1983 * 100vw);
+            background-size: calc(1728 / 1728 * 100vw) calc(951 / 951 * 100vw);
             overflow: hidden;
         }
 
