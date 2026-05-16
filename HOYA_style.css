@@ -63,7 +63,7 @@
             position: absolute;
             right: calc(-166 / 1728 * 100vw);
             bottom: calc(-161 / 1728 * 100vw);
-            width: calc(929 / 1728 * 100vw);
+            width: calc(1170 / 1728 * 100vw);
             z-index: 4;
             display: block;
             transform: rotate(3deg);
