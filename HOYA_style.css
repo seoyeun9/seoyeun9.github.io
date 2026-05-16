@@ -23,7 +23,7 @@
           margin: 0 auto;
             
           background-image: url('brand_detail/brand_folder.png'); 
-          background-size: calc(1457 / 1728 * 100vw);
+          background-size: calc(1457 / 1728 * 100vw) auto;
           background-position: calc(26 / 1728 * 100vw) calc(11 / 1728 * 100vw);
           background-repeat: no-repeat;
       }
