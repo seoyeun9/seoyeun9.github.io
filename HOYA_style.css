@@ -16,6 +16,29 @@
             overflow: hidden;
         }
 
+      .folder-tab-text {
+          position: absolute;
+            
+          left: calc(50 / 1728 * 100vw);
+          bottom: calc(80 / 1728 * 100vw); /* 띠지 중간쯤 오도록 세로 위치 조절 */
+            
+          transform-origin: left top;
+          transform: rotate(-90deg) translate(-50%, 0); 
+
+          <link rel="stylesheet" href="https://use.typekit.net/ayb8iim.css">
+          
+          font-family: "active", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          
+          font-size: calc(45 / 1728 * 100vw); /* 반응형 폰트 크기 */
+          color: #2D2525; /* 너무 선명한 검은색보다 고급스러운 다크그레이 추천 */
+          letter-spacing: 0.10em; /* 자간을 살짝 넓혀주면 잡지 레이아웃 느낌이 납니다 */
+          white-space: nowrap; /* 글자가 중간에 밑으로 줄바꿈되지 않도록 방지 */
+            
+          z-index: 2;
+      }
+
       .brand-container {
           position: absolute;
           width: 100vw;
