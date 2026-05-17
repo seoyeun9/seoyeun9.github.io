@@ -19,11 +19,11 @@
       .folder-tab-text {
           position: absolute;
             
-          left: calc(50 / 1728 * 100vw);
-          bottom: calc(80 / 1728 * 100vw); /* 띠지 중간쯤 오도록 세로 위치 조절 */
+          left: calc(42 / 1728 * 100vw);
+          bottom: calc(80 / 1728 * 100vw);
             
           transform-origin: left top;
-          transform: rotate(-90deg) translate(-50%, 0); 
+          transform: rotate(-90deg) translate(-10%, 0); 
           
           font-family: "active", sans-serif;
           font-weight: 400;
