@@ -1,5 +1,7 @@
 const items = document.querySelectorAll('.avoid-mouse');
 
+let highestZIndex = 100;
+
 items.forEach(item => {
 
     item.dataset.currentX = 0;
@@ -31,7 +33,9 @@ items.forEach(item => {
         document.addEventListener('mouseup', onMouseUp);
 
         item.style.transition = 'none';
-        item.style.zIndex = '999'; 
+        
+        highestZIndex++; 
+        item.style.zIndex = highestZIndex;
     });
 
     function onMouseMove(e) {
@@ -74,7 +78,5 @@ items.forEach(item => {
         const currentY = parseFloat(item.dataset.currentY) || 0;
 
         item.style.transform = `translate3d(${currentX}px, ${currentY}px, 0) rotate(${randomRotate}deg)`;
-
-        item.style.zIndex = ''; 
     }
 });
